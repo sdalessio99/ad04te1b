@@ -3,4 +3,21 @@
   <groupId>eus.birt.dam</groupId>
   <artifactId>AD4_TE1b</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <properties>
+   		<maven.compiler.source>17</maven.compiler.source>
+  		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+   	<dependencies>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>6.3.1.Final</version>
+</dependency>
+
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>8.2.0</version>
+</dependency>
+  	</dependencies>
 </project>
